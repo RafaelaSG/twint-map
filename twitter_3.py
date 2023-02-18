@@ -65,7 +65,7 @@ def get_sentiment_score(text):
 # Collect Twitter data for each location
 data = []
 
-map = folium.Map(location=[-5.1580336,-41.354628], zoom_start=7)
+map = folium.Map(location=[-5.1580336,-41.354628], zoom_start=5)
 
 for location in locations:
     
